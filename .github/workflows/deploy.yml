@@ -19,7 +19,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: node_cache
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
