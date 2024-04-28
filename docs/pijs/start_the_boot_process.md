@@ -24,9 +24,11 @@
 
 
 
-## 项目加载
+## 项目加载(基于script)
 
--   ``` JavaScript
+- 执行命令启动项目 `pijs index.js`
+-   index.js 
+    ``` JavaScript
     const { run } = require("pi_pt/init_pijs");
 
     // 多版本方式启动
